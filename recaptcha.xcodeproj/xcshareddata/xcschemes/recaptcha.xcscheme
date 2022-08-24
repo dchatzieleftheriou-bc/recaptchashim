@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9870EE6A268CCB5300BB2C73"
+               BlueprintIdentifier = "989A3FF328B63366002E65AB"
                BuildableName = "recaptcha.framework"
                BlueprintName = "recaptcha"
                ReferencedContainer = "container:recaptcha.xcodeproj">
@@ -50,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9870EE6A268CCB5300BB2C73"
+            BlueprintIdentifier = "989A3FF328B63366002E65AB"
             BuildableName = "recaptcha.framework"
             BlueprintName = "recaptcha"
             ReferencedContainer = "container:recaptcha.xcodeproj">

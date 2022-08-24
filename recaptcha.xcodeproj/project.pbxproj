@@ -6,21 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		9870EE73268CCBA600BB2C73 /* RecaptchaClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9870EE42268CB7C900BB2C73 /* RecaptchaClient.m */; };
-		9870EE74268CCBAA00BB2C73 /* RecaptchaAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9870EE44268CB94500BB2C73 /* RecaptchaAction.m */; };
-		9870EE75268CCBAC00BB2C73 /* RCARecaptchaError.m in Sources */ = {isa = PBXBuildFile; fileRef = 9870EE57268CBCAB00BB2C73 /* RCARecaptchaError.m */; };
-		9870EE76268CCBC100BB2C73 /* RecaptchaActionType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9870EE33268CB68000BB2C73 /* RecaptchaActionType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9870EE77268CCBC400BB2C73 /* RecaptchaClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 9870EE2F268CB68000BB2C73 /* RecaptchaClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9870EE78268CCBC700BB2C73 /* RecaptchaAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9870EE31268CB68000BB2C73 /* RecaptchaAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9870EE79268CCBC900BB2C73 /* recaptcha.h in Headers */ = {isa = PBXBuildFile; fileRef = 9870EE30268CB68000BB2C73 /* recaptcha.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9870EE7A268CCBCB00BB2C73 /* RCARecaptchaError.h in Headers */ = {isa = PBXBuildFile; fileRef = 9870EE2E268CB68000BB2C73 /* RCARecaptchaError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98D85999268DFBCB00FBF722 /* RecaptchaVerificationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D85998268DFBCB00FBF722 /* RecaptchaVerificationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98D8599D268DFC0D00FBF722 /* RecaptchaToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D8599C268DFC0D00FBF722 /* RecaptchaToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98D8599F268DFC3300FBF722 /* RecaptchaToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D8599E268DFC3300FBF722 /* RecaptchaToken.m */; };
-		98D859A1268DFC5E00FBF722 /* RecaptchaVerificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D859A0268DFC5E00FBF722 /* RecaptchaVerificationHandler.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		9870EE27268CB65E00BB2C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9870EE2E268CB68000BB2C73 /* RCARecaptchaError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCARecaptchaError.h; sourceTree = "<group>"; };
@@ -31,7 +16,7 @@
 		9870EE42268CB7C900BB2C73 /* RecaptchaClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecaptchaClient.m; sourceTree = "<group>"; };
 		9870EE44268CB94500BB2C73 /* RecaptchaAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecaptchaAction.m; sourceTree = "<group>"; };
 		9870EE57268CBCAB00BB2C73 /* RCARecaptchaError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCARecaptchaError.m; sourceTree = "<group>"; };
-		9870EE6B268CCB5300BB2C73 /* recaptcha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = recaptcha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		989A3FF428B63366002E65AB /* recaptcha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = recaptcha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D85998268DFBCB00FBF722 /* RecaptchaVerificationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecaptchaVerificationHandler.h; sourceTree = "<group>"; };
 		98D8599C268DFC0D00FBF722 /* RecaptchaToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecaptchaToken.h; sourceTree = "<group>"; };
 		98D8599E268DFC3300FBF722 /* RecaptchaToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecaptchaToken.m; sourceTree = "<group>"; };
@@ -39,7 +24,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9870EE68268CCB5300BB2C73 /* Frameworks */ = {
+		989A3FF128B63366002E65AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +45,7 @@
 		9870EE24268CB65E00BB2C73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9870EE6B268CCB5300BB2C73 /* recaptcha.framework */,
+				989A3FF428B63366002E65AB /* recaptcha.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,31 +73,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9870EE66268CCB5300BB2C73 /* Headers */ = {
+		989A3FEF28B63366002E65AB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9870EE79268CCBC900BB2C73 /* recaptcha.h in Headers */,
-				9870EE78268CCBC700BB2C73 /* RecaptchaAction.h in Headers */,
-				98D8599D268DFC0D00FBF722 /* RecaptchaToken.h in Headers */,
-				9870EE76268CCBC100BB2C73 /* RecaptchaActionType.h in Headers */,
-				9870EE7A268CCBCB00BB2C73 /* RCARecaptchaError.h in Headers */,
-				98D85999268DFBCB00FBF722 /* RecaptchaVerificationHandler.h in Headers */,
-				9870EE77268CCBC400BB2C73 /* RecaptchaClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9870EE6A268CCB5300BB2C73 /* recaptcha */ = {
+		989A3FF328B63366002E65AB /* recaptcha */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9870EE70268CCB5300BB2C73 /* Build configuration list for PBXNativeTarget "recaptcha" */;
+			buildConfigurationList = 989A3FF828B63367002E65AB /* Build configuration list for PBXNativeTarget "recaptcha" */;
 			buildPhases = (
-				9870EE66268CCB5300BB2C73 /* Headers */,
-				9870EE67268CCB5300BB2C73 /* Sources */,
-				9870EE68268CCB5300BB2C73 /* Frameworks */,
-				9870EE69268CCB5300BB2C73 /* Resources */,
+				989A3FEF28B63366002E65AB /* Headers */,
+				989A3FF028B63366002E65AB /* Sources */,
+				989A3FF128B63366002E65AB /* Frameworks */,
+				989A3FF228B63366002E65AB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,7 +98,7 @@
 			);
 			name = recaptcha;
 			productName = recaptcha;
-			productReference = 9870EE6B268CCB5300BB2C73 /* recaptcha.framework */;
+			productReference = 989A3FF428B63366002E65AB /* recaptcha.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -131,8 +109,8 @@
 			attributes = {
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					9870EE6A268CCB5300BB2C73 = {
-						CreatedOnToolsVersion = 12.5;
+					989A3FF328B63366002E65AB = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
@@ -149,13 +127,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9870EE6A268CCB5300BB2C73 /* recaptcha */,
+				989A3FF328B63366002E65AB /* recaptcha */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9870EE69268CCB5300BB2C73 /* Resources */ = {
+		989A3FF228B63366002E65AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,15 +143,10 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9870EE67268CCB5300BB2C73 /* Sources */ = {
+		989A3FF028B63366002E65AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9870EE75268CCBAC00BB2C73 /* RCARecaptchaError.m in Sources */,
-				98D859A1268DFC5E00FBF722 /* RecaptchaVerificationHandler.m in Sources */,
-				9870EE73268CCBA600BB2C73 /* RecaptchaClient.m in Sources */,
-				9870EE74268CCBAA00BB2C73 /* RecaptchaAction.m in Sources */,
-				98D8599F268DFC3300FBF722 /* RecaptchaToken.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,15 +275,18 @@
 			};
 			name = Release;
 		};
-		9870EE71268CCB5300BB2C73 /* Debug */ = {
+		989A3FF928B63367002E65AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = recaptcha/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,23 +294,28 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainydayapps.recaptcha;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9870EE72268CCB5300BB2C73 /* Release */ = {
+		989A3FFA28B63367002E65AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = recaptcha/Info.plist;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,11 +323,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rainydayapps.recaptcha;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = 1;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -362,11 +345,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9870EE70268CCB5300BB2C73 /* Build configuration list for PBXNativeTarget "recaptcha" */ = {
+		989A3FF828B63367002E65AB /* Build configuration list for PBXNativeTarget "recaptcha" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9870EE71268CCB5300BB2C73 /* Debug */,
-				9870EE72268CCB5300BB2C73 /* Release */,
+				989A3FF928B63367002E65AB /* Debug */,
+				989A3FFA28B63367002E65AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
